@@ -5,242 +5,224 @@
 <title>Tables</title>
 </head>
 <body>
-<h1> Table1</h1>
-<table border cellpadding="10" cellspacing="5">
+<form>
+<h1>HTML Form-1</h1>
+<table>
+<tr>
+<td><label>First Name:</label></td>
+<td><input type="text"</td>
+</tr>
+<tr>
+<td><label>Last Name:</label></td>
+<td><input type="text"</td>
+</tr>
+<tr>
+<td><label>Date of Birth:</label></td>
+<td><input type="text"</td>
+</tr>
+<tr>
+<td><label>Email id:</label></td>
+<td><input type="text"</td>
+</tr>
+<tr>
+<td><label>Mobile Number:</label></td>
+<td><input type="text"</td>
+</tr>
+<tr><td><button type="Submit">Submit</button></td><td><button type="Submit">Reset</button></td></tr>
+</table>
+</form>
+</br></br>
+
+
+<h1> Form 2 </h1>
+<form>
+<table border>
+<tr> <th> Name</th> <th> Value</th> </tr>
+<tr> <td> Name </td> <td> <input type="text"> </td> </tr>
+<tr> <td rowspan="2"> Sex</td> <td> <input type="radio" name="gender value="male"> Male </td></tr>
+<tr>  <td> <input type="radio" name="gender value="Female"> Female </td></tr>
+
+<tr> <td> <label for="eye color"> Eye Color </lable></td> 
+<td> 
+
+<select name="Eye Color" id="eye color" > 
+<option value="green"> Green </option>
+<option value="blue"> Blue </option>
+<option value="black"> Black </option>
+<option value="brown"> Brown </option>
+</select>
+</td> </tr>
+
+<tr> <td rowspan="2"> Check all that apply </td> <td> 
+<label> <input type="checkbox" value="Over 
+ feet tall"> Over 6 feet tall</label></td></tr>
+<tr> <td> <label> <input type="checkbox" value="Over 200 pounds"> Over 200 pounds </label> </td></tr>
+
+<tr> <td colspan=2> <label for="ability">Describe your athletic ability </label> </td> </tr>
+<tr> <td colspan=2> <textarea name="ability" id="ability" rows="5" cols="40"> </textarea> </td> </tr>
+
+<tr> <td colspan=2 align=center> <button type="submit"> Enter My Information </button> </td> </tr>
+
+</table>
+</form>
+
+
+
+<h1>F0rm-3</h1>
+<table border="1">
 <tr >
-<th>Column1</th>
-<th>Column2</th>
-<th>Column3</th>
-</tr>
-<tr>
-<td rowspan="2">Row1 Cell1</td>
-<td>Row1 Cell2</td>
-<td>Row1 Cell3</td>
-</tr>
-<tr  >
-<td>Row2 Cell2</td>
-<td>Row2 Cell3</td>
-</tr>
-<tr>
-<td colspan="3">Row3 Cell1</td>
+<td ><img  width="300" height="500" src="https://tse3.mm.bing.net/th?id=OIP.U_g4mWR__uNmMnap6P2cSQHaHa&pid=Api&P=0&h=180"></td>
+<td width="300" height="500">
+<table frame="all" height="500">
+<tr><th><h2> Registration Form</h2></th></tr></br>
+<tr><td cellpadding="5"><label>Full Name</label><br/><input type="text" Placeholder="ex.Lindsey wison"/></td></br></tr>
+<tr><td cellpadding="5"><label>Your Email:</label><br/><input type="text"/></td></br></tr>
+<tr><td cellpadding="5"><label>Password:</label><br/><input type="text" /></td></br></tr>
+<tr><td cellpadding="5"><label>Confirm Password:</label><br/><input type="text" /></td></br></tr>
+<tr><td cellpadding="5"><input type="Checkbox"/>By signing up, you agreeto the<br/>
+<a href="">Play Term of Services</a></td></br></tr>
+<tr><td cellpadding="5"><button type="Submit">Register</button></td></table></tr>
+</table></td>
+
+
+
+
+
+
 </tr>
 </table>
-<br/>
-<br/>
 
 
-<h1> Table-2</h1>
-<table border cellpadding="10" cellspacing="5">
+<h1>Form-4</h1>
+<form>
+<table>
 <tr>
-<th colspan="3">Products</th>
+<td><label>First Name*:</label></td>
+<td><input type="text"/></td>
+<td><input type="text"/> </td>
 </tr>
-<tr>
-<th>No</th>
-<th>P.Name</th>
-<th>P.Count</th>
-</tr>
-<tr>
-<td>1</td>
-<td>Pen</td>
-<td rowspan="3">50</td>
+<tr >
+<td><label>Organisation</label></td>
+<td colspan="2"><input type="text"/></td>
 </tr>
 <tr>
-<td>2</td>
-<td>Book</td>
+<td><label>Email Address*:</label></td>
+<td colspan="2"><input type="text"/></td>
 </tr>
 <tr>
-<td>3</td>
-<td>Dust</td>
-</tr>
-</table>
-<br/>
-<br/>
-
-<h1> Table-3</h1>
-<table frame="box" rules="all" cellpadding="10" cellspacing="5">
-<tr>
-<th colspan="6">Time Table</th>
+<td><label>Work Phone:</label></td>
+<td><input type="text"/></td>
 </tr>
 <tr>
-<th rowspan="6">Hours</th>
-<th>Mon</th>
-<th>Tue</th>
-<th>Wed</th>
-<th>Thur</th>
-<th>Fri</th>
+<td><label>House Phone:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr>
-<td>Science</td>
-<td>Maths</td>
-<td>Science</td>
-<td>Maths</td>
-<td>Arts</td>
+<td><label>Cell Phone:</label></td>
+<td><input type="text"/></td>
+</tr><td><label>Address 1*:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr>
-<td>Social</td>
-<td>History</td>
-<td>English</td>
-<td>Social</td>
-<td>Sports</td>
+<td><label>Address2:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr align="center">
-<td colspan="5"><b>Lunch</b></td>
+<td><label>City*:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr>
-<td>Science</td>
-<td>Maths</td>
-<td>Science</td>
-<td>Maths</td>
-<td rowspan="2">Project</td>
+<td><label>State Province:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr>
-<td>Social</td>
-<td>History</td>
-<td>English</td>
-<td>social</td>
+<td><label>Zip Postal Code:</label></td>
+<td><input type="text"/></td>
 </tr>
-</table>
-<br/>
-<br/>
-
-
-<h1> Table-4</h1>
-<table border cellpadding="10" cellspacing="5">
-<tr>
-<th>Heading</th>
-<th>Heading</th>
-<th>Heading</th>
-<th>Heading</th>
+<td><label>Country*:</label></td>
+<td><input type="text"/></td>
 </tr>
-<tr>
-<td rowspan="5">You can span down.</td>
-<td colspan="3">You can span across.</td>
-</tr>
-<tr>
-<td colspan="2">It's like a puzzle.</td>
-<td rowspan="4"> Over here.</td>
-</tr>
-<tr>
-<td rowspan="2">This way.</td>
-<td>That way.</td>
-</tr>
-<tr>
-<td><pre>Where a
- I?</pre></td>
-</tr>
-
-</table>
-<br/>
-<br/>
-
-
-
-<h1> Table-5</h1>
-
-<h2>Advanced Html tag for table using thead,tbody, and tfoot</h2>
-<table border cellpadding="10" cellspacing="5" bordercolor="blue">
-<tr align="center">
-<th colspan="4">Purshase order=987654321</th>
-<th colspan="2">Tutorialbrain-10th Oct 2020</th>
-</tr>
-<tr>
-<td colspan="3"><pre><b>Vendor</b>
-ABCXYZltd
-DUMMY STREET
-BULIDING 123
-HAZARIBAGH, JHARKHAND, 825301</pre>
-</td>
-<td colspan="3"><pre><b>SHIP TO: </b>
-MS DHONI
-WILSON GARDEN
-SOUTHEAST BLOCK,RANCHI-834001
+<pre>
+<tr><td>*required details</td>   <td><button type="submit">Submit</button> </td>                            <td><a href="">form</a></td></tr>
 </pre>
+</table>
+</form>
+</br>
+</br>
+
+
+<h1>Form-5</h1>
+<table border="1" cellspacing="15">
+<tr>
+<td bgcolor="blue"> <h1>INFORMATION</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</br> sed do eiusmod tempor incididunt ut labore et dolorebgc</br> magna aliqua. Ut enim ad minim veniam, quis</br> nostrud exercitation ullamco laboris nisi</br> ut aliquip ex ea commodo consequat</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</br> sed do eiusmod tempor incididunt ut labore et dolorebgc</br> magna aliqua. Ut enim ad minim veniam, quis</br> nostrud exercitation ullamco laboris nisi</br> ut aliquip ex ea commodo consequat</p>
+<center>
+<button type="submit">Sign Up here</button></center>
+</td>
+<td >
+<h1> Registration Form</h1><br>
+<table>
+<tr>
+<td>First Name</br>
+<input type="text"/></td>
+<td>Last Name</br>
+<input type="text"/></td>
+</tr>
+<tr>
+<td>Email id</br>
+<input type="text"/></td></tr>
+<tr>
+<td>Password</br>
+<input type="text"/></td>
+<td>Confirm Password</br>
+<input type="text"/></td>
+</tr>
+</br></br>
+<tr>
+<td>Login here<a href="">SignUp for free</a></br></br></td></tr>
+<tr><td><button type="submit">Register</button></td></tr>
+</table>
+<br/><br/><br/>
 </td>
 </tr>
-<tr>
-<th>Qty</th>
-<th colspan="2">Item Code</th>
-<th>Descrption</th>
-<th colspan="2">Unit Price</th>
-</tr>
-</tr>
-<tr>
-<td>100</td>
-<td colspan="2">IABCDE</td>
-<td>Pencils</td>
-<td colspan="2">20.00</td>
-</tr>
-</tr>
-<tr>
-<td>1000</td>
-<td colspan="2">IN877</td>
-<td>Notebooks</td>
-<td colspan="2">100.00</td>
-</tr>
-<tr>
-<th>500</th>
-<td colspan="2">IABCDE</td>
-<td>Pens</td>
-<td colspan="2">70.00</td>
-</tr>
-<tr>
-<td colspan="4" align="center"><b>Subtotal</b></td>
-<td colspan="2">190.00</td>
-</tr>
-<tr>
-<td colspan="3" align="center"><b>GST</b></td>
-<td>5%</td>
-<td colspan="2">9.50</td>
-</tr>
-<tr>
-<td colspan="4" align="center"><b>Grand Total</b></td>
-<td colspan="2">$199.50</td>
-</tr>
 </table>
-<br/>
-<br/>
+<br/><br/>
 
 
-<h1> Table-6</h1>
-
-<table border cellpadding="10" cellspacing="5">
-<tr align="center">
-<th colspan="4">Cell Alignment With CSS
-</th>
-</tr>
-<tr>
-<td align="center" rowspan="5">Examples</td>
-<td>
-<table border="5" cellpadding="10" cellspacing="5">
-<tr>
-<th>Row</th>
-<th>Cell-1</th>
-<th>Cell-2</th>
-<th>Cell-3</th>
-</tr>
-<tr cellpadding="10" align="center">
-<td align="center">3</td>
-<td >CSS</td>
-<td >CSS</td>
-<td >CSS</td>
-</tr>
-<tr cellpadding="10" align="center">
-<td align="center">4</td>
-<td >CSS</td>
-<td >CSS</td>
-<td >CSS</td>
-</tr>
-<tr cellpadding="10"  align="center">
-<td align="center">5</td>
-<td >CSS</td>
-<td >CSS</td>
-<td >CSS</td>
-</tr>
+<h1>Form-6</h1>
+<form>
+<table frame="Box" bgcolor="Skyblue " cellspacing="5" cellpadding="1">
+<tr><th ><h1> Quick Contact</h1></th></tr>
+<tr><td><b>Contact us today, and get reply with in 24 hours!</b></td></tr>
+<tr><td><input type="text" placeholder="Your name"/></td></tr>
+<tr><td><input type="text" placeholder="Your Email Address "/></td></tr> 
+<tr><td><input type="text" placeholder="Your Phone Number"/></td></tr>
+<tr><td><input type="text" placeholder="Your Web Site satrts with http://"/></td></tr>
+<tr><td><textarea placeholder="type your Message here" rows="15"cols="40"></textarea>/<td></tr>
 </table>
-<center>Nested table</center>
-</td>
-</table>
+</form>
+<br/><br/>
 
+<h1>Form-7</h1>
+<table background="https://tse1.mm.bing.net/th?id=OIP.srfVswkxATiGcFL68W-hfgHaFL&pid=Api&P=0&h=180">
+<tr><th><h2>Contact Form</h2></th></tr>
+<tr><td >Please fill in your information and we'll be sending your order in no time.</td></tr>
+<tr><td><label>Your Name</label></td>
+<td><input type="text" placeholder="First Name"/></td>
+<td ><input type="text" placeholder="Last Name"/></td></tr>
+<tr><td><label>Your Email</label></td>
+<td><input type="text" placeholder="eg.hello@gmail.com"/></td></tr>
+<tr>
+<td><label> Phone*</label></td>
+<td><input type="text" placeholder="000"/></td>
+<td><input type="text" placeholder="000"/></td>
+<td><input type="text" placeholder="0000"/></td>
+</tr>
+<tr><td><label>Mesage Subject*</label></td>
+<td><input type="text" placeholder="Other"/></td></tr>
+<tr><td><label>Message*</label></td>
+<td><textarea rows="5" cols="50"></textarea></td>
+<tr>
+<td><label>Verfication*</label></td>
+<td><input type="checkbox"/>I'm not a robot</tr>
+<tr><td align="center"><button type="submit">Submit Form</button></td></tr>
+</table>
 </body>
 
 </html>
